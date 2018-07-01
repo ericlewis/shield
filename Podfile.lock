@@ -1,0 +1,41 @@
+PODS:
+  - Analytics (3.6.9)
+  - AWSCore (2.6.19)
+  - AWSS3 (2.6.19):
+    - AWSCore (= 2.6.19)
+  - KeychainSwift (11.0.0)
+  - PhoneNumberKit (2.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 2.1.0)
+    - PhoneNumberKit/UIKit (= 2.1.0)
+  - PhoneNumberKit/PhoneNumberKitCore (2.1.0)
+  - PhoneNumberKit/UIKit (2.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - SwiftyStoreKit (0.13.2)
+
+DEPENDENCIES:
+  - Analytics (~> 3.0)
+  - AWSS3
+  - KeychainSwift (~> 11.0)
+  - PhoneNumberKit (~> 2.1)
+  - SwiftyStoreKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Analytics
+    - AWSCore
+    - AWSS3
+    - KeychainSwift
+    - PhoneNumberKit
+    - SwiftyStoreKit
+
+SPEC CHECKSUMS:
+  Analytics: 6541ce337e99d9f7a2240a8b3953940a7be5f998
+  AWSCore: 3019940607dee2a467e0a8de638649d9fcb9afc3
+  AWSS3: 003ab3d5b42cd512d812d9227cd927d0345b739b
+  KeychainSwift: bea6bd9f98af7b8d7ca4aa79fe105c00fab532db
+  PhoneNumberKit: 62003f40ff75315fd3738286558bc365365ac222
+  SwiftyStoreKit: b7563505440a68c9d9fa70bc43d8a97015519409
+
+PODFILE CHECKSUM: 4f81ffdc79f2a8b5ffcaaa0c5a03667dfe184712
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,1388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		142AA272D9BC2680AE25686B /* Pods_MessageFilter_Pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7EA96FD2EDAFBE2D6E2E28C /* Pods_MessageFilter_Pro.framework */; };
+		26A026FB5EFFE3D111EFE0F7 /* Pods_Text_Protector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE111E546F1DB0A7866575C /* Pods_Text_Protector.framework */; };
+		680F229420E5D5AE000746C4 /* MembershipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F229320E5D5AE000746C4 /* MembershipTableViewController.swift */; };
+		6856400220E88C32008D24B6 /* SpamClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6856400120E88C32008D24B6 /* SpamClassifier.mlmodel */; };
+		6856400320E88C32008D24B6 /* SpamClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6856400120E88C32008D24B6 /* SpamClassifier.mlmodel */; };
+		6856400620E8931E008D24B6 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = 6856400420E8931D008D24B6 /* privacy.html */; };
+		6856400720E8931E008D24B6 /* faq.html in Resources */ = {isa = PBXBuildFile; fileRef = 6856400520E8931E008D24B6 /* faq.html */; };
+		6856400920E89356008D24B6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856400820E89356008D24B6 /* WebViewController.swift */; };
+		6856400F20E9420D008D24B6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689105E820DF74B400937F3A /* HomeViewController.swift */; };
+		6856401020E9420D008D24B6 /* TestFilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896D020E05C230034712C /* TestFilterTableViewController.swift */; };
+		6856401120E9420D008D24B6 /* SpamClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6856400120E88C32008D24B6 /* SpamClassifier.mlmodel */; };
+		6856401220E9420D008D24B6 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688DC79B20E3496E00194622 /* UIViewController.swift */; };
+		6856401320E9420D008D24B6 /* Lists.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 688DC78E20E320A100194622 /* Lists.xcdatamodeld */; };
+		6856401420E9420D008D24B6 /* MembershipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F229320E5D5AE000746C4 /* MembershipTableViewController.swift */; };
+		6856401520E9420D008D24B6 /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896CD20E057C10034712C /* Analyzer.swift */; };
+		6856401620E9420D008D24B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688DC78C20E31EA200194622 /* Item.swift */; };
+		6856401820E9420D008D24B6 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CCAD3520E5C62A00725641 /* Downloader.swift */; };
+		6856401920E9420D008D24B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689105E620DF74B400937F3A /* AppDelegate.swift */; };
+		6856401A20E9420D008D24B6 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891063520DF87B500937F3A /* ListTableViewController.swift */; };
+		6856401B20E9420D008D24B6 /* ReportSMSTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896D220E05C2E0034712C /* ReportSMSTableViewController.swift */; };
+		6856401C20E9420D008D24B6 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896D420E05F6C0034712C /* AboutTableViewController.swift */; };
+		6856401D20E9420D008D24B6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688DC78820E31C1900194622 /* CoreDataManager.swift */; };
+		6856401E20E9420D008D24B6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856400820E89356008D24B6 /* WebViewController.swift */; };
+		6856402020E9420D008D24B6 /* Pods_Text_Protector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE111E546F1DB0A7866575C /* Pods_Text_Protector.framework */; };
+		6856402220E9420D008D24B6 /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = 6856400420E8931D008D24B6 /* privacy.html */; };
+		6856402320E9420D008D24B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689105EF20DF74B700937F3A /* LaunchScreen.storyboard */; };
+		6856402420E9420D008D24B6 /* tutorial.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 68D0078420E881D500E6B7DE /* tutorial.MOV */; };
+		6856402520E9420D008D24B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689105ED20DF74B700937F3A /* Assets.xcassets */; };
+		6856402620E9420D008D24B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689105EA20DF74B400937F3A /* Main.storyboard */; };
+		6856402720E9420D008D24B6 /* faq.html in Resources */ = {isa = PBXBuildFile; fileRef = 6856400520E8931E008D24B6 /* faq.html */; };
+		6856403320E9421E008D24B6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688DC78820E31C1900194622 /* CoreDataManager.swift */; };
+		6856403420E9421E008D24B6 /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896CD20E057C10034712C /* Analyzer.swift */; };
+		6856403520E9421E008D24B6 /* MessageFilterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891062420DF7B8700937F3A /* MessageFilterExtension.swift */; };
+		6856403620E9421E008D24B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688DC78C20E31EA200194622 /* Item.swift */; };
+		6856403720E9421E008D24B6 /* Lists.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 688DC78E20E320A100194622 /* Lists.xcdatamodeld */; };
+		6856403820E9421E008D24B6 /* SpamClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6856400120E88C32008D24B6 /* SpamClassifier.mlmodel */; };
+		6856403920E9421E008D24B6 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688DC79B20E3496E00194622 /* UIViewController.swift */; };
+		6856403B20E9421E008D24B6 /* Pods_MessageFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B8C5B86952129D433C7CD7 /* Pods_MessageFilter.framework */; };
+		6856404220E94235008D24B6 /* MessageFilter Pro.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6856404020E9421E008D24B6 /* MessageFilter Pro.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6856404720E94285008D24B6 /* Constants_Pro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856404520E9425D008D24B6 /* Constants_Pro.swift */; };
+		687896CE20E057C10034712C /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896CD20E057C10034712C /* Analyzer.swift */; };
+		687896CF20E057C10034712C /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896CD20E057C10034712C /* Analyzer.swift */; };
+		687896D120E05C230034712C /* TestFilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896D020E05C230034712C /* TestFilterTableViewController.swift */; };
+		687896D320E05C2E0034712C /* ReportSMSTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896D220E05C2E0034712C /* ReportSMSTableViewController.swift */; };
+		687896D520E05F6C0034712C /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896D420E05F6C0034712C /* AboutTableViewController.swift */; };
+		688DC78920E31C1900194622 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688DC78820E31C1900194622 /* CoreDataManager.swift */; };
+		688DC78D20E31EA200194622 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688DC78C20E31EA200194622 /* Item.swift */; };
+		688DC79120E320A100194622 /* Lists.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 688DC78E20E320A100194622 /* Lists.xcdatamodeld */; };
+		688DC79220E320A100194622 /* Lists.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 688DC78E20E320A100194622 /* Lists.xcdatamodeld */; };
+		688DC79C20E3496E00194622 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688DC79B20E3496E00194622 /* UIViewController.swift */; };
+		688DC79D20E3496E00194622 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688DC79B20E3496E00194622 /* UIViewController.swift */; };
+		689105E720DF74B400937F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689105E620DF74B400937F3A /* AppDelegate.swift */; };
+		689105E920DF74B400937F3A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689105E820DF74B400937F3A /* HomeViewController.swift */; };
+		689105EC20DF74B400937F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689105EA20DF74B400937F3A /* Main.storyboard */; };
+		689105EE20DF74B700937F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689105ED20DF74B700937F3A /* Assets.xcassets */; };
+		689105F120DF74B700937F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689105EF20DF74B700937F3A /* LaunchScreen.storyboard */; };
+		689105FC20DF74B700937F3A /* Text_ProtectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689105FB20DF74B700937F3A /* Text_ProtectorTests.swift */; };
+		6891060720DF74B700937F3A /* Text_ProtectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891060620DF74B700937F3A /* Text_ProtectorUITests.swift */; };
+		6891062520DF7B8700937F3A /* MessageFilterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891062420DF7B8700937F3A /* MessageFilterExtension.swift */; };
+		6891062920DF7B8700937F3A /* MessageFilter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6891062220DF7B8700937F3A /* MessageFilter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6891063620DF87B500937F3A /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891063520DF87B500937F3A /* ListTableViewController.swift */; };
+		6894B2EF20E5A14400CE13D8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6894B2EE20E5A14400CE13D8 /* Constants.swift */; };
+		68AEF56E20E481DC00C49514 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688DC78820E31C1900194622 /* CoreDataManager.swift */; };
+		68AEF57020E481E700C49514 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688DC78C20E31EA200194622 /* Item.swift */; };
+		68CCAD3620E5C62A00725641 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CCAD3520E5C62A00725641 /* Downloader.swift */; };
+		68D0078520E881D500E6B7DE /* tutorial.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 68D0078420E881D500E6B7DE /* tutorial.MOV */; };
+		E465111E13C2E497432D9B39 /* Pods_Text_Protector_Pro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88555D0BB3B22716C6D9EA99 /* Pods_Text_Protector_Pro.framework */; };
+		FA1019F9E5C246754E7D3E9F /* Pods_MessageFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B8C5B86952129D433C7CD7 /* Pods_MessageFilter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6856404320E94235008D24B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689105DB20DF74B400937F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6856403020E9421E008D24B6;
+			remoteInfo = "MessageFilter Pro";
+		};
+		689105F820DF74B700937F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689105DB20DF74B400937F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689105E220DF74B400937F3A;
+			remoteInfo = "Text Protector";
+		};
+		6891060320DF74B700937F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689105DB20DF74B400937F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689105E220DF74B400937F3A;
+			remoteInfo = "Text Protector";
+		};
+		6891062720DF7B8700937F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689105DB20DF74B400937F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6891062120DF7B8700937F3A;
+			remoteInfo = MessageFilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6856402820E9420D008D24B6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6856404220E94235008D24B6 /* MessageFilter Pro.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6891062D20DF7B8700937F3A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6891062920DF7B8700937F3A /* MessageFilter.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		045D6DD119F25B8EBE706B9A /* Pods-Text Protector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Text Protector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Text Protector/Pods-Text Protector.debug.xcconfig"; sourceTree = "<group>"; };
+		3938CDE2867E1F0321CC6738 /* Pods-MessageFilter Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageFilter Pro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessageFilter Pro/Pods-MessageFilter Pro.debug.xcconfig"; sourceTree = "<group>"; };
+		3D96009DABB53F334130363B /* Pods-MessageFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageFilter.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessageFilter/Pods-MessageFilter.release.xcconfig"; sourceTree = "<group>"; };
+		4CE111E546F1DB0A7866575C /* Pods_Text_Protector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Text_Protector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1D2822385C9BD088F3E9AB /* Pods-MessageFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageFilter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessageFilter/Pods-MessageFilter.debug.xcconfig"; sourceTree = "<group>"; };
+		680F229320E5D5AE000746C4 /* MembershipTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipTableViewController.swift; sourceTree = "<group>"; };
+		680F229B20E5F3A9000746C4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6856400120E88C32008D24B6 /* SpamClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SpamClassifier.mlmodel; sourceTree = "<group>"; };
+		6856400420E8931D008D24B6 /* privacy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		6856400520E8931E008D24B6 /* faq.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = faq.html; sourceTree = "<group>"; };
+		6856400820E89356008D24B6 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		6856402E20E9420D008D24B6 /* Text Protector Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Protector Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6856402F20E9420F008D24B6 /* Text Protector copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Text Protector copy-Info.plist"; path = "/Users/ericlewis/Work/Text Protector/Text Protector copy-Info.plist"; sourceTree = "<absolute>"; };
+		6856404020E9421E008D24B6 /* MessageFilter Pro.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MessageFilter Pro.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6856404120E9421F008D24B6 /* MessageFilter copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MessageFilter copy-Info.plist"; path = "/Users/ericlewis/Work/Text Protector/MessageFilter copy-Info.plist"; sourceTree = "<absolute>"; };
+		6856404520E9425D008D24B6 /* Constants_Pro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants_Pro.swift; sourceTree = "<group>"; };
+		687896CD20E057C10034712C /* Analyzer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analyzer.swift; sourceTree = "<group>"; };
+		687896D020E05C230034712C /* TestFilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFilterTableViewController.swift; sourceTree = "<group>"; };
+		687896D220E05C2E0034712C /* ReportSMSTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSMSTableViewController.swift; sourceTree = "<group>"; };
+		687896D420E05F6C0034712C /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		688DC78820E31C1900194622 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		688DC78C20E31EA200194622 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		688DC78F20E320A100194622 /* Notes 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Notes 2.xcdatamodel"; sourceTree = "<group>"; };
+		688DC79020E320A100194622 /* Notes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notes.xcdatamodel; sourceTree = "<group>"; };
+		688DC79B20E3496E00194622 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		688DC79E20E36BDF00194622 /* Text Protector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Text Protector.entitlements"; sourceTree = "<group>"; };
+		688DC79F20E36C8700194622 /* MessageFilter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MessageFilter.entitlements; sourceTree = "<group>"; };
+		689105E320DF74B400937F3A /* Text Protector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Protector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		689105E620DF74B400937F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		689105E820DF74B400937F3A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		689105EB20DF74B400937F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		689105ED20DF74B700937F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689105F020DF74B700937F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		689105F220DF74B700937F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689105F720DF74B700937F3A /* Text ProtectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text ProtectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		689105FB20DF74B700937F3A /* Text_ProtectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_ProtectorTests.swift; sourceTree = "<group>"; };
+		689105FD20DF74B700937F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6891060220DF74B700937F3A /* Text ProtectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text ProtectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6891060620DF74B700937F3A /* Text_ProtectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_ProtectorUITests.swift; sourceTree = "<group>"; };
+		6891060820DF74B700937F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6891062220DF7B8700937F3A /* MessageFilter.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessageFilter.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6891062420DF7B8700937F3A /* MessageFilterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFilterExtension.swift; sourceTree = "<group>"; };
+		6891062620DF7B8700937F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6891063520DF87B500937F3A /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		6894B2EE20E5A14400CE13D8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		68CCAD3520E5C62A00725641 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		68D0078420E881D500E6B7DE /* tutorial.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = tutorial.MOV; path = ../../../../Downloads/tutorial.MOV; sourceTree = "<group>"; };
+		88555D0BB3B22716C6D9EA99 /* Pods_Text_Protector_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Text_Protector_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B8C5B86952129D433C7CD7 /* Pods_MessageFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5999C4ABBB837A1833DC16D /* Pods-Text Protector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Text Protector.release.xcconfig"; path = "Pods/Target Support Files/Pods-Text Protector/Pods-Text Protector.release.xcconfig"; sourceTree = "<group>"; };
+		AF24705966A31EBCD8EFEFEB /* Pods_ReportSpam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReportSpam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D420D55A53814E573A3166A6 /* Pods-MessageFilter Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageFilter Pro.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessageFilter Pro/Pods-MessageFilter Pro.release.xcconfig"; sourceTree = "<group>"; };
+		D4CD9E5BCB275AD78A7807CB /* Pods-Text Protector Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Text Protector Pro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Text Protector Pro/Pods-Text Protector Pro.debug.xcconfig"; sourceTree = "<group>"; };
+		D7EA96FD2EDAFBE2D6E2E28C /* Pods_MessageFilter_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageFilter_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE98FA5348EF5EE0BF526616 /* Pods-Text Protector Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Text Protector Pro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Text Protector Pro/Pods-Text Protector Pro.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6856401F20E9420D008D24B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6856402020E9420D008D24B6 /* Pods_Text_Protector.framework in Frameworks */,
+				E465111E13C2E497432D9B39 /* Pods_Text_Protector_Pro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6856403A20E9421E008D24B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6856403B20E9421E008D24B6 /* Pods_MessageFilter.framework in Frameworks */,
+				142AA272D9BC2680AE25686B /* Pods_MessageFilter_Pro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689105E020DF74B400937F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A026FB5EFFE3D111EFE0F7 /* Pods_Text_Protector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689105F420DF74B700937F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689105FF20DF74B700937F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6891061F20DF7B8700937F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1019F9E5C246754E7D3E9F /* Pods_MessageFilter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0313929798C4EA448645FE0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				680F229B20E5F3A9000746C4 /* StoreKit.framework */,
+				A1B8C5B86952129D433C7CD7 /* Pods_MessageFilter.framework */,
+				AF24705966A31EBCD8EFEFEB /* Pods_ReportSpam.framework */,
+				4CE111E546F1DB0A7866575C /* Pods_Text_Protector.framework */,
+				D7EA96FD2EDAFBE2D6E2E28C /* Pods_MessageFilter_Pro.framework */,
+				88555D0BB3B22716C6D9EA99 /* Pods_Text_Protector_Pro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		687896D620E066FA0034712C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6891063520DF87B500937F3A /* ListTableViewController.swift */,
+				689105E820DF74B400937F3A /* HomeViewController.swift */,
+				687896D420E05F6C0034712C /* AboutTableViewController.swift */,
+				6856400820E89356008D24B6 /* WebViewController.swift */,
+				687896D020E05C230034712C /* TestFilterTableViewController.swift */,
+				687896D220E05C2E0034712C /* ReportSMSTableViewController.swift */,
+				680F229320E5D5AE000746C4 /* MembershipTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		687896D720E0670A0034712C /* Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				6856400120E88C32008D24B6 /* SpamClassifier.mlmodel */,
+				687896CD20E057C10034712C /* Analyzer.swift */,
+			);
+			path = Analyzer;
+			sourceTree = "<group>";
+		};
+		687896D820E067330034712C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6856400520E8931E008D24B6 /* faq.html */,
+				6856400420E8931D008D24B6 /* privacy.html */,
+				68D0078420E881D500E6B7DE /* tutorial.MOV */,
+				689105ED20DF74B700937F3A /* Assets.xcassets */,
+				689105EF20DF74B700937F3A /* LaunchScreen.storyboard */,
+				689105EA20DF74B400937F3A /* Main.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		688DC78720E31BF600194622 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				688DC78820E31C1900194622 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		688DC78A20E31E0F00194622 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				688DC78B20E31E3800194622 /* Extensions */,
+				688DC78E20E320A100194622 /* Lists.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		688DC78B20E31E3800194622 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				688DC78C20E31EA200194622 /* Item.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		688DC79A20E3495600194622 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				688DC79B20E3496E00194622 /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		689105DA20DF74B400937F3A = {
+			isa = PBXGroup;
+			children = (
+				689105E520DF74B400937F3A /* Text Protector */,
+				689105FA20DF74B700937F3A /* Text ProtectorTests */,
+				6891060520DF74B700937F3A /* Text ProtectorUITests */,
+				6891062320DF7B8700937F3A /* MessageFilter */,
+				689105E420DF74B400937F3A /* Products */,
+				E2F48D5DA7F2C0E9F91F134C /* Pods */,
+				0313929798C4EA448645FE0A /* Frameworks */,
+				6856402F20E9420F008D24B6 /* Text Protector copy-Info.plist */,
+				6856404120E9421F008D24B6 /* MessageFilter copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		689105E420DF74B400937F3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689105E320DF74B400937F3A /* Text Protector.app */,
+				689105F720DF74B700937F3A /* Text ProtectorTests.xctest */,
+				6891060220DF74B700937F3A /* Text ProtectorUITests.xctest */,
+				6891062220DF7B8700937F3A /* MessageFilter.appex */,
+				6856402E20E9420D008D24B6 /* Text Protector Pro.app */,
+				6856404020E9421E008D24B6 /* MessageFilter Pro.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689105E520DF74B400937F3A /* Text Protector */ = {
+			isa = PBXGroup;
+			children = (
+				688DC79E20E36BDF00194622 /* Text Protector.entitlements */,
+				688DC79A20E3495600194622 /* Extensions */,
+				688DC78A20E31E0F00194622 /* Core Data */,
+				688DC78720E31BF600194622 /* Managers */,
+				687896D720E0670A0034712C /* Analyzer */,
+				687896D620E066FA0034712C /* View Controllers */,
+				687896D820E067330034712C /* Assets */,
+				689105E620DF74B400937F3A /* AppDelegate.swift */,
+				6894B2EE20E5A14400CE13D8 /* Constants.swift */,
+				6856404520E9425D008D24B6 /* Constants_Pro.swift */,
+				68CCAD3520E5C62A00725641 /* Downloader.swift */,
+				689105F220DF74B700937F3A /* Info.plist */,
+			);
+			path = "Text Protector";
+			sourceTree = "<group>";
+		};
+		689105FA20DF74B700937F3A /* Text ProtectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				689105FB20DF74B700937F3A /* Text_ProtectorTests.swift */,
+				689105FD20DF74B700937F3A /* Info.plist */,
+			);
+			path = "Text ProtectorTests";
+			sourceTree = "<group>";
+		};
+		6891060520DF74B700937F3A /* Text ProtectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6891060620DF74B700937F3A /* Text_ProtectorUITests.swift */,
+				6891060820DF74B700937F3A /* Info.plist */,
+			);
+			path = "Text ProtectorUITests";
+			sourceTree = "<group>";
+		};
+		6891062320DF7B8700937F3A /* MessageFilter */ = {
+			isa = PBXGroup;
+			children = (
+				688DC79F20E36C8700194622 /* MessageFilter.entitlements */,
+				6891062420DF7B8700937F3A /* MessageFilterExtension.swift */,
+				6891062620DF7B8700937F3A /* Info.plist */,
+			);
+			path = MessageFilter;
+			sourceTree = "<group>";
+		};
+		E2F48D5DA7F2C0E9F91F134C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D2822385C9BD088F3E9AB /* Pods-MessageFilter.debug.xcconfig */,
+				3D96009DABB53F334130363B /* Pods-MessageFilter.release.xcconfig */,
+				045D6DD119F25B8EBE706B9A /* Pods-Text Protector.debug.xcconfig */,
+				A5999C4ABBB837A1833DC16D /* Pods-Text Protector.release.xcconfig */,
+				3938CDE2867E1F0321CC6738 /* Pods-MessageFilter Pro.debug.xcconfig */,
+				D420D55A53814E573A3166A6 /* Pods-MessageFilter Pro.release.xcconfig */,
+				D4CD9E5BCB275AD78A7807CB /* Pods-Text Protector Pro.debug.xcconfig */,
+				DE98FA5348EF5EE0BF526616 /* Pods-Text Protector Pro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6856400A20E9420D008D24B6 /* Text Protector Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6856402B20E9420D008D24B6 /* Build configuration list for PBXNativeTarget "Text Protector Pro" */;
+			buildPhases = (
+				6856400D20E9420D008D24B6 /* [CP] Check Pods Manifest.lock */,
+				6856400E20E9420D008D24B6 /* Sources */,
+				6856401F20E9420D008D24B6 /* Frameworks */,
+				6856402120E9420D008D24B6 /* Resources */,
+				6856402820E9420D008D24B6 /* Embed App Extensions */,
+				6856402A20E9420D008D24B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6856404420E94235008D24B6 /* PBXTargetDependency */,
+			);
+			name = "Text Protector Pro";
+			productName = "Text Protector";
+			productReference = 6856402E20E9420D008D24B6 /* Text Protector Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6856403020E9421E008D24B6 /* MessageFilter Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6856403D20E9421E008D24B6 /* Build configuration list for PBXNativeTarget "MessageFilter Pro" */;
+			buildPhases = (
+				6856403120E9421E008D24B6 /* [CP] Check Pods Manifest.lock */,
+				6856403220E9421E008D24B6 /* Sources */,
+				6856403A20E9421E008D24B6 /* Frameworks */,
+				6856403C20E9421E008D24B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MessageFilter Pro";
+			productName = MessageFilter;
+			productReference = 6856404020E9421E008D24B6 /* MessageFilter Pro.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		689105E220DF74B400937F3A /* Text Protector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6891060B20DF74B700937F3A /* Build configuration list for PBXNativeTarget "Text Protector" */;
+			buildPhases = (
+				7C4AE4465488B01DF90C1E27 /* [CP] Check Pods Manifest.lock */,
+				689105DF20DF74B400937F3A /* Sources */,
+				689105E020DF74B400937F3A /* Frameworks */,
+				689105E120DF74B400937F3A /* Resources */,
+				6891062D20DF7B8700937F3A /* Embed App Extensions */,
+				D281CBED2A62B44C17D2A6DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6891062820DF7B8700937F3A /* PBXTargetDependency */,
+			);
+			name = "Text Protector";
+			productName = "Text Protector";
+			productReference = 689105E320DF74B400937F3A /* Text Protector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		689105F620DF74B700937F3A /* Text ProtectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6891060E20DF74B700937F3A /* Build configuration list for PBXNativeTarget "Text ProtectorTests" */;
+			buildPhases = (
+				689105F320DF74B700937F3A /* Sources */,
+				689105F420DF74B700937F3A /* Frameworks */,
+				689105F520DF74B700937F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689105F920DF74B700937F3A /* PBXTargetDependency */,
+			);
+			name = "Text ProtectorTests";
+			productName = "Text ProtectorTests";
+			productReference = 689105F720DF74B700937F3A /* Text ProtectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6891060120DF74B700937F3A /* Text ProtectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6891061120DF74B700937F3A /* Build configuration list for PBXNativeTarget "Text ProtectorUITests" */;
+			buildPhases = (
+				689105FE20DF74B700937F3A /* Sources */,
+				689105FF20DF74B700937F3A /* Frameworks */,
+				6891060020DF74B700937F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6891060420DF74B700937F3A /* PBXTargetDependency */,
+			);
+			name = "Text ProtectorUITests";
+			productName = "Text ProtectorUITests";
+			productReference = 6891060220DF74B700937F3A /* Text ProtectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6891062120DF7B8700937F3A /* MessageFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6891062A20DF7B8700937F3A /* Build configuration list for PBXNativeTarget "MessageFilter" */;
+			buildPhases = (
+				C35403499D1ED9329A639A1B /* [CP] Check Pods Manifest.lock */,
+				6891061E20DF7B8700937F3A /* Sources */,
+				6891061F20DF7B8700937F3A /* Frameworks */,
+				6891062020DF7B8700937F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessageFilter;
+			productName = MessageFilter;
+			productReference = 6891062220DF7B8700937F3A /* MessageFilter.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689105DB20DF74B400937F3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Eric Lewis Innovations, LLC.";
+				TargetAttributes = {
+					689105E220DF74B400937F3A = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					689105F620DF74B700937F3A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 689105E220DF74B400937F3A;
+					};
+					6891060120DF74B700937F3A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 689105E220DF74B400937F3A;
+					};
+					6891062120DF7B8700937F3A = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 689105DE20DF74B400937F3A /* Build configuration list for PBXProject "Text Protector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 689105DA20DF74B400937F3A;
+			productRefGroup = 689105E420DF74B400937F3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689105E220DF74B400937F3A /* Text Protector */,
+				6856400A20E9420D008D24B6 /* Text Protector Pro */,
+				689105F620DF74B700937F3A /* Text ProtectorTests */,
+				6891060120DF74B700937F3A /* Text ProtectorUITests */,
+				6891062120DF7B8700937F3A /* MessageFilter */,
+				6856403020E9421E008D24B6 /* MessageFilter Pro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6856402120E9420D008D24B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6856402220E9420D008D24B6 /* privacy.html in Resources */,
+				6856402320E9420D008D24B6 /* LaunchScreen.storyboard in Resources */,
+				6856402420E9420D008D24B6 /* tutorial.MOV in Resources */,
+				6856402520E9420D008D24B6 /* Assets.xcassets in Resources */,
+				6856402620E9420D008D24B6 /* Main.storyboard in Resources */,
+				6856402720E9420D008D24B6 /* faq.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6856403C20E9421E008D24B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689105E120DF74B400937F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6856400620E8931E008D24B6 /* privacy.html in Resources */,
+				689105F120DF74B700937F3A /* LaunchScreen.storyboard in Resources */,
+				68D0078520E881D500E6B7DE /* tutorial.MOV in Resources */,
+				689105EE20DF74B700937F3A /* Assets.xcassets in Resources */,
+				689105EC20DF74B400937F3A /* Main.storyboard in Resources */,
+				6856400720E8931E008D24B6 /* faq.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689105F520DF74B700937F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6891060020DF74B700937F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6891062020DF7B8700937F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6856400D20E9420D008D24B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Text Protector Pro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6856402A20E9420D008D24B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Text Protector Pro/Pods-Text Protector Pro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Analytics/Analytics.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Analytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Text Protector Pro/Pods-Text Protector Pro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6856403120E9421E008D24B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MessageFilter Pro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C4AE4465488B01DF90C1E27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Text Protector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C35403499D1ED9329A639A1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MessageFilter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D281CBED2A62B44C17D2A6DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Text Protector/Pods-Text Protector-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Analytics/Analytics.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Analytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Text Protector/Pods-Text Protector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6856400E20E9420D008D24B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6856400F20E9420D008D24B6 /* HomeViewController.swift in Sources */,
+				6856401020E9420D008D24B6 /* TestFilterTableViewController.swift in Sources */,
+				6856401120E9420D008D24B6 /* SpamClassifier.mlmodel in Sources */,
+				6856401220E9420D008D24B6 /* UIViewController.swift in Sources */,
+				6856401320E9420D008D24B6 /* Lists.xcdatamodeld in Sources */,
+				6856404720E94285008D24B6 /* Constants_Pro.swift in Sources */,
+				6856401420E9420D008D24B6 /* MembershipTableViewController.swift in Sources */,
+				6856401520E9420D008D24B6 /* Analyzer.swift in Sources */,
+				6856401620E9420D008D24B6 /* Item.swift in Sources */,
+				6856401820E9420D008D24B6 /* Downloader.swift in Sources */,
+				6856401920E9420D008D24B6 /* AppDelegate.swift in Sources */,
+				6856401A20E9420D008D24B6 /* ListTableViewController.swift in Sources */,
+				6856401B20E9420D008D24B6 /* ReportSMSTableViewController.swift in Sources */,
+				6856401C20E9420D008D24B6 /* AboutTableViewController.swift in Sources */,
+				6856401D20E9420D008D24B6 /* CoreDataManager.swift in Sources */,
+				6856401E20E9420D008D24B6 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6856403220E9421E008D24B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6856403320E9421E008D24B6 /* CoreDataManager.swift in Sources */,
+				6856403420E9421E008D24B6 /* Analyzer.swift in Sources */,
+				6856403520E9421E008D24B6 /* MessageFilterExtension.swift in Sources */,
+				6856403620E9421E008D24B6 /* Item.swift in Sources */,
+				6856403720E9421E008D24B6 /* Lists.xcdatamodeld in Sources */,
+				6856403820E9421E008D24B6 /* SpamClassifier.mlmodel in Sources */,
+				6856403920E9421E008D24B6 /* UIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689105DF20DF74B400937F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689105E920DF74B400937F3A /* HomeViewController.swift in Sources */,
+				687896D120E05C230034712C /* TestFilterTableViewController.swift in Sources */,
+				6856400220E88C32008D24B6 /* SpamClassifier.mlmodel in Sources */,
+				688DC79C20E3496E00194622 /* UIViewController.swift in Sources */,
+				688DC79120E320A100194622 /* Lists.xcdatamodeld in Sources */,
+				680F229420E5D5AE000746C4 /* MembershipTableViewController.swift in Sources */,
+				687896CE20E057C10034712C /* Analyzer.swift in Sources */,
+				688DC78D20E31EA200194622 /* Item.swift in Sources */,
+				6894B2EF20E5A14400CE13D8 /* Constants.swift in Sources */,
+				68CCAD3620E5C62A00725641 /* Downloader.swift in Sources */,
+				689105E720DF74B400937F3A /* AppDelegate.swift in Sources */,
+				6891063620DF87B500937F3A /* ListTableViewController.swift in Sources */,
+				687896D320E05C2E0034712C /* ReportSMSTableViewController.swift in Sources */,
+				687896D520E05F6C0034712C /* AboutTableViewController.swift in Sources */,
+				688DC78920E31C1900194622 /* CoreDataManager.swift in Sources */,
+				6856400920E89356008D24B6 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689105F320DF74B700937F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689105FC20DF74B700937F3A /* Text_ProtectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689105FE20DF74B700937F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6891060720DF74B700937F3A /* Text_ProtectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6891061E20DF7B8700937F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AEF56E20E481DC00C49514 /* CoreDataManager.swift in Sources */,
+				687896CF20E057C10034712C /* Analyzer.swift in Sources */,
+				6891062520DF7B8700937F3A /* MessageFilterExtension.swift in Sources */,
+				68AEF57020E481E700C49514 /* Item.swift in Sources */,
+				688DC79220E320A100194622 /* Lists.xcdatamodeld in Sources */,
+				6856400320E88C32008D24B6 /* SpamClassifier.mlmodel in Sources */,
+				688DC79D20E3496E00194622 /* UIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6856404420E94235008D24B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6856403020E9421E008D24B6 /* MessageFilter Pro */;
+			targetProxy = 6856404320E94235008D24B6 /* PBXContainerItemProxy */;
+		};
+		689105F920DF74B700937F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689105E220DF74B400937F3A /* Text Protector */;
+			targetProxy = 689105F820DF74B700937F3A /* PBXContainerItemProxy */;
+		};
+		6891060420DF74B700937F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689105E220DF74B400937F3A /* Text Protector */;
+			targetProxy = 6891060320DF74B700937F3A /* PBXContainerItemProxy */;
+		};
+		6891062820DF7B8700937F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6891062120DF7B8700937F3A /* MessageFilter */;
+			targetProxy = 6891062720DF7B8700937F3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		689105EA20DF74B400937F3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689105EB20DF74B400937F3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		689105EF20DF74B700937F3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689105F020DF74B700937F3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6856402C20E9420D008D24B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4CD9E5BCB275AD78A7807CB /* Pods-Text Protector Pro.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Text Protector/Text Protector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "Text Protector copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.spam-shieldpro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6856402D20E9420D008D24B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE98FA5348EF5EE0BF526616 /* Pods-Text Protector Pro.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Text Protector/Text Protector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "Text Protector copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.spam-shieldpro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6856403E20E9421E008D24B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3938CDE2867E1F0321CC6738 /* Pods-MessageFilter Pro.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MessageFilter/MessageFilter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "MessageFilter copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.spam-shieldpro.messageFilter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6856403F20E9421E008D24B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D420D55A53814E573A3166A6 /* Pods-MessageFilter Pro.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MessageFilter/MessageFilter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "MessageFilter copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.spam-shieldpro.messageFilter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6891060920DF74B700937F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		6891060A20DF74B700937F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6891060C20DF74B700937F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045D6DD119F25B8EBE706B9A /* Pods-Text Protector.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Text Protector/Text Protector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "Text Protector/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.spam-shield";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6891060D20DF74B700937F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5999C4ABBB837A1833DC16D /* Pods-Text Protector.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Text Protector/Text Protector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "Text Protector/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.spam-shield";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6891060F20DF74B700937F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "Text ProtectorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-ProtectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Protector.app/Text Protector";
+			};
+			name = Debug;
+		};
+		6891061020DF74B700937F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "Text ProtectorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-ProtectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Protector.app/Text Protector";
+			};
+			name = Release;
+		};
+		6891061220DF74B700937F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "Text ProtectorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-ProtectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Text Protector";
+			};
+			name = Debug;
+		};
+		6891061320DF74B700937F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "Text ProtectorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-ProtectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Text Protector";
+			};
+			name = Release;
+		};
+		6891062B20DF7B8700937F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1D2822385C9BD088F3E9AB /* Pods-MessageFilter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MessageFilter/MessageFilter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = MessageFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.spam-shield.messageFilter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6891062C20DF7B8700937F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D96009DABB53F334130363B /* Pods-MessageFilter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MessageFilter/MessageFilter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = MessageFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.spam-shield.messageFilter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6856402B20E9420D008D24B6 /* Build configuration list for PBXNativeTarget "Text Protector Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6856402C20E9420D008D24B6 /* Debug */,
+				6856402D20E9420D008D24B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6856403D20E9421E008D24B6 /* Build configuration list for PBXNativeTarget "MessageFilter Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6856403E20E9421E008D24B6 /* Debug */,
+				6856403F20E9421E008D24B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689105DE20DF74B400937F3A /* Build configuration list for PBXProject "Text Protector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6891060920DF74B700937F3A /* Debug */,
+				6891060A20DF74B700937F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6891060B20DF74B700937F3A /* Build configuration list for PBXNativeTarget "Text Protector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6891060C20DF74B700937F3A /* Debug */,
+				6891060D20DF74B700937F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6891060E20DF74B700937F3A /* Build configuration list for PBXNativeTarget "Text ProtectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6891060F20DF74B700937F3A /* Debug */,
+				6891061020DF74B700937F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6891061120DF74B700937F3A /* Build configuration list for PBXNativeTarget "Text ProtectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6891061220DF74B700937F3A /* Debug */,
+				6891061320DF74B700937F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6891062A20DF7B8700937F3A /* Build configuration list for PBXNativeTarget "MessageFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6891062B20DF7B8700937F3A /* Debug */,
+				6891062C20DF7B8700937F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		688DC78E20E320A100194622 /* Lists.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				688DC78F20E320A100194622 /* Notes 2.xcdatamodel */,
+				688DC79020E320A100194622 /* Notes.xcdatamodel */,
+			);
+			currentVersion = 688DC78F20E320A100194622 /* Notes 2.xcdatamodel */;
+			path = Lists.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 689105DB20DF74B400937F3A /* Project object */;
+}
