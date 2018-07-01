@@ -16,6 +16,16 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
+### ios production
+```
+fastlane ios production
+```
+Upload Shield & Metadata to App Store
+### ios production_pro
+```
+fastlane ios production_pro
+```
+Upload Shield Pro & Metadata to App Store
 ### ios beta
 ```
 fastlane ios beta
@@ -30,7 +40,12 @@ Upload Shield Pro to TestFlight
 ```
 fastlane ios tests
 ```
-Run Unit & UI Tests
+Run Shield Unit & UI Tests
+### ios tests_pro
+```
+fastlane ios tests_pro
+```
+Run Shield Pro Unit & UI Tests
 
 ----
 

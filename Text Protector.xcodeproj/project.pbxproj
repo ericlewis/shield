@@ -47,6 +47,8 @@
 		6856403B20E9421E008D24B6 /* Pods_MessageFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B8C5B86952129D433C7CD7 /* Pods_MessageFilter.framework */; };
 		6856404220E94235008D24B6 /* MessageFilter Pro.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6856404020E9421E008D24B6 /* MessageFilter Pro.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6856404720E94285008D24B6 /* Constants_Pro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856404520E9425D008D24B6 /* Constants_Pro.swift */; };
+		6856405820E962C0008D24B6 /* Text_Protector_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856405720E962BF008D24B6 /* Text_Protector_ProUITests.swift */; };
+		6856406820E962F2008D24B6 /* Text_Protector_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856406720E962F2008D24B6 /* Text_Protector_ProTests.swift */; };
 		687896CE20E057C10034712C /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896CD20E057C10034712C /* Analyzer.swift */; };
 		687896CF20E057C10034712C /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896CD20E057C10034712C /* Analyzer.swift */; };
 		687896D120E05C230034712C /* TestFilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687896D020E05C230034712C /* TestFilterTableViewController.swift */; };
@@ -84,6 +86,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6856403020E9421E008D24B6;
 			remoteInfo = "MessageFilter Pro";
+		};
+		6856405A20E962C0008D24B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689105DB20DF74B400937F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689105E220DF74B400937F3A;
+			remoteInfo = "Text Protector";
+		};
+		6856405F20E962C7008D24B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689105DB20DF74B400937F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6856400A20E9420D008D24B6;
+			remoteInfo = "Text Protector Pro";
+		};
+		6856406A20E962F2008D24B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689105DB20DF74B400937F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6856400A20E9420D008D24B6;
+			remoteInfo = "Text Protector Pro";
 		};
 		689105F820DF74B700937F3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -150,6 +173,12 @@
 		6856404520E9425D008D24B6 /* Constants_Pro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants_Pro.swift; sourceTree = "<group>"; };
 		6856404B20E94B7C008D24B6 /* Pro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pro-Info.plist"; sourceTree = "<group>"; };
 		6856404C20E94D2A008D24B6 /* Pro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pro-Info.plist"; sourceTree = "<group>"; };
+		6856405520E962BF008D24B6 /* Text Protector ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text Protector ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6856405720E962BF008D24B6 /* Text_Protector_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Protector_ProUITests.swift; sourceTree = "<group>"; };
+		6856405920E962C0008D24B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6856406520E962F2008D24B6 /* Text Protector ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text Protector ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6856406720E962F2008D24B6 /* Text_Protector_ProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Protector_ProTests.swift; sourceTree = "<group>"; };
+		6856406920E962F2008D24B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		687896CD20E057C10034712C /* Analyzer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analyzer.swift; sourceTree = "<group>"; };
 		687896D020E05C230034712C /* TestFilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFilterTableViewController.swift; sourceTree = "<group>"; };
 		687896D220E05C2E0034712C /* ReportSMSTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSMSTableViewController.swift; sourceTree = "<group>"; };
@@ -210,6 +239,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6856405220E962BF008D24B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6856406220E962F2008D24B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		689105E020DF74B400937F3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,6 +297,24 @@
 				88555D0BB3B22716C6D9EA99 /* Pods_Text_Protector_Pro.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6856405620E962BF008D24B6 /* Text Protector ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6856405720E962BF008D24B6 /* Text_Protector_ProUITests.swift */,
+				6856405920E962C0008D24B6 /* Info.plist */,
+			);
+			path = "Text Protector ProUITests";
+			sourceTree = "<group>";
+		};
+		6856406620E962F2008D24B6 /* Text Protector ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				6856406720E962F2008D24B6 /* Text_Protector_ProTests.swift */,
+				6856406920E962F2008D24B6 /* Info.plist */,
+			);
+			path = "Text Protector ProTests";
 			sourceTree = "<group>";
 		};
 		687896D620E066FA0034712C /* View Controllers */ = {
@@ -331,6 +392,8 @@
 				689105E520DF74B400937F3A /* Text Protector */,
 				689105FA20DF74B700937F3A /* Text ProtectorTests */,
 				6891060520DF74B700937F3A /* Text ProtectorUITests */,
+				6856405620E962BF008D24B6 /* Text Protector ProUITests */,
+				6856406620E962F2008D24B6 /* Text Protector ProTests */,
 				6891062320DF7B8700937F3A /* MessageFilter */,
 				689105E420DF74B400937F3A /* Products */,
 				E2F48D5DA7F2C0E9F91F134C /* Pods */,
@@ -347,6 +410,8 @@
 				6891062220DF7B8700937F3A /* MessageFilter.appex */,
 				6856402E20E9420D008D24B6 /* Text Protector Pro.app */,
 				6856404020E9421E008D24B6 /* MessageFilter Pro.appex */,
+				6856405520E962BF008D24B6 /* Text Protector ProUITests.xctest */,
+				6856406520E962F2008D24B6 /* Text Protector ProTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -459,6 +524,43 @@
 			productReference = 6856404020E9421E008D24B6 /* MessageFilter Pro.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		6856405420E962BF008D24B6 /* Text Protector ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6856405E20E962C0008D24B6 /* Build configuration list for PBXNativeTarget "Text Protector ProUITests" */;
+			buildPhases = (
+				6856405120E962BF008D24B6 /* Sources */,
+				6856405220E962BF008D24B6 /* Frameworks */,
+				6856405320E962BF008D24B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6856405B20E962C0008D24B6 /* PBXTargetDependency */,
+				6856406020E962C7008D24B6 /* PBXTargetDependency */,
+			);
+			name = "Text Protector ProUITests";
+			productName = "Text Protector ProUITests";
+			productReference = 6856405520E962BF008D24B6 /* Text Protector ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6856406420E962F2008D24B6 /* Text Protector ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6856406C20E962F2008D24B6 /* Build configuration list for PBXNativeTarget "Text Protector ProTests" */;
+			buildPhases = (
+				6856406120E962F2008D24B6 /* Sources */,
+				6856406220E962F2008D24B6 /* Frameworks */,
+				6856406320E962F2008D24B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6856406B20E962F2008D24B6 /* PBXTargetDependency */,
+			);
+			name = "Text Protector ProTests";
+			productName = "Text Protector ProTests";
+			productReference = 6856406520E962F2008D24B6 /* Text Protector ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		689105E220DF74B400937F3A /* Text Protector */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6891060B20DF74B700937F3A /* Build configuration list for PBXNativeTarget "Text Protector" */;
@@ -542,10 +644,18 @@
 		689105DB20DF74B400937F3A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Eric Lewis Innovations, LLC.";
 				TargetAttributes = {
+					6856405420E962BF008D24B6 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 6856400A20E9420D008D24B6;
+					};
+					6856406420E962F2008D24B6 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 6856400A20E9420D008D24B6;
+					};
 					689105E220DF74B400937F3A = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1000;
@@ -594,10 +704,12 @@
 			targets = (
 				689105E220DF74B400937F3A /* Text Protector */,
 				6856400A20E9420D008D24B6 /* Text Protector Pro */,
-				689105F620DF74B700937F3A /* Text ProtectorTests */,
-				6891060120DF74B700937F3A /* Text ProtectorUITests */,
 				6891062120DF7B8700937F3A /* MessageFilter */,
 				6856403020E9421E008D24B6 /* MessageFilter Pro */,
+				689105F620DF74B700937F3A /* Text ProtectorTests */,
+				6891060120DF74B700937F3A /* Text ProtectorUITests */,
+				6856406420E962F2008D24B6 /* Text Protector ProTests */,
+				6856405420E962BF008D24B6 /* Text Protector ProUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -617,6 +729,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6856403C20E9421E008D24B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6856405320E962BF008D24B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6856406320E962F2008D24B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -884,6 +1010,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6856405120E962BF008D24B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6856405820E962C0008D24B6 /* Text_Protector_ProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6856406120E962F2008D24B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6856406820E962F2008D24B6 /* Text_Protector_ProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		689105DF20DF74B400937F3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -944,6 +1086,21 @@
 			isa = PBXTargetDependency;
 			target = 6856403020E9421E008D24B6 /* MessageFilter Pro */;
 			targetProxy = 6856404320E94235008D24B6 /* PBXContainerItemProxy */;
+		};
+		6856405B20E962C0008D24B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689105E220DF74B400937F3A /* Text Protector */;
+			targetProxy = 6856405A20E962C0008D24B6 /* PBXContainerItemProxy */;
+		};
+		6856406020E962C7008D24B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6856400A20E9420D008D24B6 /* Text Protector Pro */;
+			targetProxy = 6856405F20E962C7008D24B6 /* PBXContainerItemProxy */;
+		};
+		6856406B20E962F2008D24B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6856400A20E9420D008D24B6 /* Text Protector Pro */;
+			targetProxy = 6856406A20E962F2008D24B6 /* PBXContainerItemProxy */;
 		};
 		689105F920DF74B700937F3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1070,6 +1227,90 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6856405C20E962C0008D24B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "Text Protector ProUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-Protector-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Text Protector Pro";
+			};
+			name = Debug;
+		};
+		6856405D20E962C0008D24B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "Text Protector ProUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-Protector-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Text Protector Pro";
+			};
+			name = Release;
+		};
+		6856406D20E962F2008D24B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "Text Protector ProTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-Protector-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Protector Pro.app/Text Protector Pro";
+			};
+			name = Debug;
+		};
+		6856406E20E962F2008D24B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76A8DGZB24;
+				INFOPLIST_FILE = "Text Protector ProTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-Protector-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Protector Pro.app/Text Protector Pro";
 			};
 			name = Release;
 		};
@@ -1385,6 +1626,24 @@
 			buildConfigurations = (
 				6856403E20E9421E008D24B6 /* Debug */,
 				6856403F20E9421E008D24B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6856405E20E962C0008D24B6 /* Build configuration list for PBXNativeTarget "Text Protector ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6856405C20E962C0008D24B6 /* Debug */,
+				6856405D20E962C0008D24B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6856406C20E962F2008D24B6 /* Build configuration list for PBXNativeTarget "Text Protector ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6856406D20E962F2008D24B6 /* Debug */,
+				6856406E20E962F2008D24B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

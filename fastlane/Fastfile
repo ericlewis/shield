@@ -6,12 +6,12 @@ platform :ios do
   end
 
   desc "Upload Shield & Metadata to App Store"
-  lane :production do
+  lane :prod do
       upload_as("Text Protector")
   end
 
   desc "Upload Shield Pro & Metadata to App Store"
-  lane :production_pro do
+  lane :prod_pro do
       upload_as("Text Protector Pro")
   end
   
@@ -25,13 +25,17 @@ platform :ios do
       upload_tf("Text Protector Pro")
   end
 
-  desc "Run Unit & UI Tests"
+  desc "Run Shield Unit & UI Tests"
   lane :tests do
       run_tests(scheme: "Text Protector")
   end
 
+  desc "Run Shield Pro Unit & UI Tests"
+  lane :tests_pro do
+      run_tests(scheme: "Text Protector Pro")
+  end
+
   def upload_as(scheme)
-	  capture_screenshots
   	  common_pre_upload
       upload_to_app_store(username: "ericlewis777+apple@gmail.com", skip_waiting_for_build_processing: true)
       common_post_upload
