@@ -111,10 +111,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                         inReceipt: receipt)
                     
                     switch purchaseResult {
-                    case .purchased( _, let _):
+                    case .purchased( _, _):
                         KeychainSwift().set(productId, forKey: "plan")
                         return
-                    case .expired( _, let items):
+                    case .expired( _, _):
                         KeychainSwift().delete("plan")
                         return
                     case .notPurchased:
@@ -127,10 +127,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                             inReceipt: receipt)
                         
                         switch purchaseResult {
-                        case .purchased( _, let _):
+                        case .purchased( _, _):
                             KeychainSwift().set(productId, forKey: "plan")
                             return
-                        case .expired( _, let items):
+                        case .expired( _, _):
                             KeychainSwift().delete("plan")
                             return
                         case .notPurchased:

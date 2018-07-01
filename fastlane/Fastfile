@@ -1,0 +1,51 @@
+default_platform(:ios)
+
+platform :ios do
+  before_all do |lane|
+  	  cocoapods
+  end
+
+  desc "Upload Shield & Metadata to App Store"
+  lane :production do
+      upload_as("Text Protector")
+  end
+
+  desc "Upload Shield Pro & Metadata to App Store"
+  lane :production_pro do
+      upload_as("Text Protector Pro")
+  end
+  
+  desc "Upload Shield to TestFlight"
+  lane :beta do
+      upload_tf("Text Protector")
+  end
+
+  desc "Upload Shield Pro to TestFlight"
+  lane :beta_pro do
+      upload_tf("Text Protector Pro")
+  end
+
+  desc "Run Unit & UI Tests"
+  lane :tests do
+      run_tests(scheme: "Text Protector")
+  end
+
+  def upload_as(scheme)
+	  capture_screenshots
+  	  sync_code_signing(type: "appstore")
+      build_app(scheme: scheme)
+      upload_to_app_store(username: "ericlewis777+apple@gmail.com", skip_waiting_for_build_processing: true)
+      clean_build_artifacts
+      commit_version_bump
+      push_to_git_remote
+  end
+
+  def upload_tf(scheme)
+  	  sync_code_signing(type: "appstore")
+      build_app(scheme: scheme)
+      upload_to_testflight(username: "ericlewis777+apple@gmail.com", skip_waiting_for_build_processing: true)
+      clean_build_artifacts
+      commit_version_bump
+      push_to_git_remote
+  end	
+end

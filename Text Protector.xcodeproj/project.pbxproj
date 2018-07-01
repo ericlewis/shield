@@ -146,10 +146,10 @@
 		6856400520E8931E008D24B6 /* faq.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = faq.html; sourceTree = "<group>"; };
 		6856400820E89356008D24B6 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		6856402E20E9420D008D24B6 /* Text Protector Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Protector Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6856402F20E9420F008D24B6 /* Text Protector copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Text Protector copy-Info.plist"; path = "/Users/ericlewis/Work/Text Protector/Text Protector copy-Info.plist"; sourceTree = "<absolute>"; };
 		6856404020E9421E008D24B6 /* MessageFilter Pro.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MessageFilter Pro.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6856404120E9421F008D24B6 /* MessageFilter copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MessageFilter copy-Info.plist"; path = "/Users/ericlewis/Work/Text Protector/MessageFilter copy-Info.plist"; sourceTree = "<absolute>"; };
 		6856404520E9425D008D24B6 /* Constants_Pro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants_Pro.swift; sourceTree = "<group>"; };
+		6856404B20E94B7C008D24B6 /* Pro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pro-Info.plist"; sourceTree = "<group>"; };
+		6856404C20E94D2A008D24B6 /* Pro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pro-Info.plist"; sourceTree = "<group>"; };
 		687896CD20E057C10034712C /* Analyzer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analyzer.swift; sourceTree = "<group>"; };
 		687896D020E05C230034712C /* TestFilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFilterTableViewController.swift; sourceTree = "<group>"; };
 		687896D220E05C2E0034712C /* ReportSMSTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSMSTableViewController.swift; sourceTree = "<group>"; };
@@ -335,8 +335,6 @@
 				689105E420DF74B400937F3A /* Products */,
 				E2F48D5DA7F2C0E9F91F134C /* Pods */,
 				0313929798C4EA448645FE0A /* Frameworks */,
-				6856402F20E9420F008D24B6 /* Text Protector copy-Info.plist */,
-				6856404120E9421F008D24B6 /* MessageFilter copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -368,6 +366,7 @@
 				6856404520E9425D008D24B6 /* Constants_Pro.swift */,
 				68CCAD3520E5C62A00725641 /* Downloader.swift */,
 				689105F220DF74B700937F3A /* Info.plist */,
+				6856404C20E94D2A008D24B6 /* Pro-Info.plist */,
 			);
 			path = "Text Protector";
 			sourceTree = "<group>";
@@ -396,6 +395,7 @@
 				688DC79F20E36C8700194622 /* MessageFilter.entitlements */,
 				6891062420DF7B8700937F3A /* MessageFilterExtension.swift */,
 				6891062620DF7B8700937F3A /* Info.plist */,
+				6856404B20E94B7C008D24B6 /* Pro-Info.plist */,
 			);
 			path = MessageFilter;
 			sourceTree = "<group>";
@@ -423,6 +423,7 @@
 			buildConfigurationList = 6856402B20E9420D008D24B6 /* Build configuration list for PBXNativeTarget "Text Protector Pro" */;
 			buildPhases = (
 				6856400D20E9420D008D24B6 /* [CP] Check Pods Manifest.lock */,
+				6856404D20E94F41008D24B6 /* Increment Build Number */,
 				6856400E20E9420D008D24B6 /* Sources */,
 				6856401F20E9420D008D24B6 /* Frameworks */,
 				6856402120E9420D008D24B6 /* Resources */,
@@ -444,6 +445,7 @@
 			buildConfigurationList = 6856403D20E9421E008D24B6 /* Build configuration list for PBXNativeTarget "MessageFilter Pro" */;
 			buildPhases = (
 				6856403120E9421E008D24B6 /* [CP] Check Pods Manifest.lock */,
+				6856405020E94F60008D24B6 /* Increment Build Number */,
 				6856403220E9421E008D24B6 /* Sources */,
 				6856403A20E9421E008D24B6 /* Frameworks */,
 				6856403C20E9421E008D24B6 /* Resources */,
@@ -462,6 +464,7 @@
 			buildConfigurationList = 6891060B20DF74B700937F3A /* Build configuration list for PBXNativeTarget "Text Protector" */;
 			buildPhases = (
 				7C4AE4465488B01DF90C1E27 /* [CP] Check Pods Manifest.lock */,
+				6856404E20E94F4A008D24B6 /* Increment Build Number */,
 				689105DF20DF74B400937F3A /* Sources */,
 				689105E020DF74B400937F3A /* Frameworks */,
 				689105E120DF74B400937F3A /* Resources */,
@@ -519,6 +522,7 @@
 			buildConfigurationList = 6891062A20DF7B8700937F3A /* Build configuration list for PBXNativeTarget "MessageFilter" */;
 			buildPhases = (
 				C35403499D1ED9329A639A1B /* [CP] Check Pods Manifest.lock */,
+				6856404F20E94F55008D24B6 /* Increment Build Number */,
 				6891061E20DF7B8700937F3A /* Sources */,
 				6891061F20DF7B8700937F3A /* Frameworks */,
 				6891062020DF7B8700937F3A /* Resources */,
@@ -719,6 +723,62 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		6856404D20E94F41008D24B6 /* Increment Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n# This script takes the build number from the release target plist, increments and then saves back\nbN=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PRODUCT_SETTINGS_PATH}\")\nbN=$(($bN + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $bN\" \"${PRODUCT_SETTINGS_PATH}\"";
+		};
+		6856404E20E94F4A008D24B6 /* Increment Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n# This script takes the build number from the release target plist, increments and then saves back\nbN=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PRODUCT_SETTINGS_PATH}\")\nbN=$(($bN + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $bN\" \"${PRODUCT_SETTINGS_PATH}\"";
+		};
+		6856404F20E94F55008D24B6 /* Increment Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n# This script takes the build number from the release target plist, increments and then saves back\nbN=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PRODUCT_SETTINGS_PATH}\")\nbN=$(($bN + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $bN\" \"${PRODUCT_SETTINGS_PATH}\"";
+		};
+		6856405020E94F60008D24B6 /* Increment Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n# This script takes the build number from the release target plist, increments and then saves back\nbN=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PRODUCT_SETTINGS_PATH}\")\nbN=$(($bN + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $bN\" \"${PRODUCT_SETTINGS_PATH}\"";
 		};
 		7C4AE4465488B01DF90C1E27 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -926,13 +986,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4CD9E5BCB275AD78A7807CB /* Pods-Text Protector Pro.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Text Protector/Text Protector.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76A8DGZB24;
-				INFOPLIST_FILE = "Text Protector copy-Info.plist";
+				INFOPLIST_FILE = "Text Protector/Pro-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -950,13 +1010,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE98FA5348EF5EE0BF526616 /* Pods-Text Protector Pro.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Text Protector/Text Protector.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76A8DGZB24;
-				INFOPLIST_FILE = "Text Protector copy-Info.plist";
+				INFOPLIST_FILE = "Text Protector/Pro-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -976,7 +1036,7 @@
 				CODE_SIGN_ENTITLEMENTS = MessageFilter/MessageFilter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76A8DGZB24;
-				INFOPLIST_FILE = "MessageFilter copy-Info.plist";
+				INFOPLIST_FILE = "MessageFilter/Pro-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -998,7 +1058,7 @@
 				CODE_SIGN_ENTITLEMENTS = MessageFilter/MessageFilter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76A8DGZB24;
-				INFOPLIST_FILE = "MessageFilter copy-Info.plist";
+				INFOPLIST_FILE = "MessageFilter/Pro-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1016,6 +1076,7 @@
 		6891060920DF74B700937F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1077,6 +1138,7 @@
 		6891060A20DF74B700937F3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1133,7 +1195,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 045D6DD119F25B8EBE706B9A /* Pods-Text Protector.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Text Protector/Text Protector.entitlements";
@@ -1157,7 +1219,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5999C4ABBB837A1833DC16D /* Pods-Text Protector.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Text Protector/Text Protector.entitlements";
@@ -1184,6 +1246,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76A8DGZB24;
 				INFOPLIST_FILE = "Text ProtectorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1205,6 +1268,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76A8DGZB24;
 				INFOPLIST_FILE = "Text ProtectorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1225,6 +1289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76A8DGZB24;
 				INFOPLIST_FILE = "Text ProtectorUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1245,6 +1310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76A8DGZB24;
 				INFOPLIST_FILE = "Text ProtectorUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
