@@ -12,11 +12,13 @@ class Text_ProtectorUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
-
+        
         continueAfterFailure = false
-        setupSnapshot(app)
-        XCUIApplication().launch()
 
+        let app = XCUIApplication()
+        setupSnapshot(app)
+        app.launch()
+        
     }
     
     override func tearDown() {

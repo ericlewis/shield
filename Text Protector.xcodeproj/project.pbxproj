@@ -47,7 +47,6 @@
 		6856404220E94235008D24B6 /* MessageFilter Pro.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6856404020E9421E008D24B6 /* MessageFilter Pro.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6856404720E94285008D24B6 /* Constants_Pro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856404520E9425D008D24B6 /* Constants_Pro.swift */; };
 		6856405820E962C0008D24B6 /* Text_Protector_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856405720E962BF008D24B6 /* Text_Protector_ProUITests.swift */; };
-		6856406820E962F2008D24B6 /* Text_Protector_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856406720E962F2008D24B6 /* Text_Protector_ProTests.swift */; };
 		6856407020E9668D008D24B6 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856406F20E9668C008D24B6 /* SnapshotHelper.swift */; };
 		6856407220E96695008D24B6 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856407120E96695008D24B6 /* SnapshotHelper.swift */; };
 		6856407420E9678A008D24B6 /* tutorial.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 6856407320E96789008D24B6 /* tutorial.MOV */; };
@@ -68,7 +67,6 @@
 		689105EC20DF74B400937F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689105EA20DF74B400937F3A /* Main.storyboard */; };
 		689105EE20DF74B700937F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689105ED20DF74B700937F3A /* Assets.xcassets */; };
 		689105F120DF74B700937F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689105EF20DF74B700937F3A /* LaunchScreen.storyboard */; };
-		689105FC20DF74B700937F3A /* Text_ProtectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689105FB20DF74B700937F3A /* Text_ProtectorTests.swift */; };
 		6891060720DF74B700937F3A /* Text_ProtectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891060620DF74B700937F3A /* Text_ProtectorUITests.swift */; };
 		6891062520DF7B8700937F3A /* MessageFilterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6891062420DF7B8700937F3A /* MessageFilterExtension.swift */; };
 		6891062920DF7B8700937F3A /* MessageFilter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6891062220DF7B8700937F3A /* MessageFilter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -102,20 +100,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6856400A20E9420D008D24B6;
 			remoteInfo = "Text Protector Pro";
-		};
-		6856406A20E962F2008D24B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 689105DB20DF74B400937F3A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6856400A20E9420D008D24B6;
-			remoteInfo = "Text Protector Pro";
-		};
-		689105F820DF74B700937F3A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 689105DB20DF74B400937F3A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 689105E220DF74B400937F3A;
-			remoteInfo = "Text Protector";
 		};
 		6891060320DF74B700937F3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -178,9 +162,6 @@
 		6856405520E962BF008D24B6 /* Text Protector ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text Protector ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6856405720E962BF008D24B6 /* Text_Protector_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Protector_ProUITests.swift; sourceTree = "<group>"; };
 		6856405920E962C0008D24B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6856406520E962F2008D24B6 /* Text Protector ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text Protector ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6856406720E962F2008D24B6 /* Text_Protector_ProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Protector_ProTests.swift; sourceTree = "<group>"; };
-		6856406920E962F2008D24B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6856406F20E9668C008D24B6 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		6856407120E96695008D24B6 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		6856407320E96789008D24B6 /* tutorial.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = tutorial.MOV; sourceTree = "<group>"; };
@@ -202,9 +183,6 @@
 		689105ED20DF74B700937F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		689105F020DF74B700937F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		689105F220DF74B700937F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		689105F720DF74B700937F3A /* Text ProtectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text ProtectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		689105FB20DF74B700937F3A /* Text_ProtectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_ProtectorTests.swift; sourceTree = "<group>"; };
-		689105FD20DF74B700937F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6891060220DF74B700937F3A /* Text ProtectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text ProtectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6891060620DF74B700937F3A /* Text_ProtectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_ProtectorUITests.swift; sourceTree = "<group>"; };
 		6891060820DF74B700937F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -250,25 +228,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6856406220E962F2008D24B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		689105E020DF74B400937F3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				26A026FB5EFFE3D111EFE0F7 /* Pods_Text_Protector.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		689105F420DF74B700937F3A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,15 +275,6 @@
 				6856405920E962C0008D24B6 /* Info.plist */,
 			);
 			path = "Text Protector ProUITests";
-			sourceTree = "<group>";
-		};
-		6856406620E962F2008D24B6 /* Text Protector ProTests */ = {
-			isa = PBXGroup;
-			children = (
-				6856406720E962F2008D24B6 /* Text_Protector_ProTests.swift */,
-				6856406920E962F2008D24B6 /* Info.plist */,
-			);
-			path = "Text Protector ProTests";
 			sourceTree = "<group>";
 		};
 		687896D620E066FA0034712C /* View Controllers */ = {
@@ -395,10 +350,8 @@
 			isa = PBXGroup;
 			children = (
 				689105E520DF74B400937F3A /* Text Protector */,
-				689105FA20DF74B700937F3A /* Text ProtectorTests */,
 				6891060520DF74B700937F3A /* Text ProtectorUITests */,
 				6856405620E962BF008D24B6 /* Text Protector ProUITests */,
-				6856406620E962F2008D24B6 /* Text Protector ProTests */,
 				6891062320DF7B8700937F3A /* MessageFilter */,
 				689105E420DF74B400937F3A /* Products */,
 				E2F48D5DA7F2C0E9F91F134C /* Pods */,
@@ -410,13 +363,11 @@
 			isa = PBXGroup;
 			children = (
 				689105E320DF74B400937F3A /* Text Protector.app */,
-				689105F720DF74B700937F3A /* Text ProtectorTests.xctest */,
 				6891060220DF74B700937F3A /* Text ProtectorUITests.xctest */,
 				6891062220DF7B8700937F3A /* MessageFilter.appex */,
 				6856402E20E9420D008D24B6 /* Text Protector Pro.app */,
 				6856404020E9421E008D24B6 /* MessageFilter Pro.appex */,
 				6856405520E962BF008D24B6 /* Text Protector ProUITests.xctest */,
-				6856406520E962F2008D24B6 /* Text Protector ProTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -439,15 +390,6 @@
 				6856404C20E94D2A008D24B6 /* Pro-Info.plist */,
 			);
 			path = "Text Protector";
-			sourceTree = "<group>";
-		};
-		689105FA20DF74B700937F3A /* Text ProtectorTests */ = {
-			isa = PBXGroup;
-			children = (
-				689105FB20DF74B700937F3A /* Text_ProtectorTests.swift */,
-				689105FD20DF74B700937F3A /* Info.plist */,
-			);
-			path = "Text ProtectorTests";
 			sourceTree = "<group>";
 		};
 		6891060520DF74B700937F3A /* Text ProtectorUITests */ = {
@@ -549,24 +491,6 @@
 			productReference = 6856405520E962BF008D24B6 /* Text Protector ProUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		6856406420E962F2008D24B6 /* Text Protector ProTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6856406C20E962F2008D24B6 /* Build configuration list for PBXNativeTarget "Text Protector ProTests" */;
-			buildPhases = (
-				6856406120E962F2008D24B6 /* Sources */,
-				6856406220E962F2008D24B6 /* Frameworks */,
-				6856406320E962F2008D24B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6856406B20E962F2008D24B6 /* PBXTargetDependency */,
-			);
-			name = "Text Protector ProTests";
-			productName = "Text Protector ProTests";
-			productReference = 6856406520E962F2008D24B6 /* Text Protector ProTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		689105E220DF74B400937F3A /* Text Protector */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6891060B20DF74B700937F3A /* Build configuration list for PBXNativeTarget "Text Protector" */;
@@ -588,24 +512,6 @@
 			productName = "Text Protector";
 			productReference = 689105E320DF74B400937F3A /* Text Protector.app */;
 			productType = "com.apple.product-type.application";
-		};
-		689105F620DF74B700937F3A /* Text ProtectorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6891060E20DF74B700937F3A /* Build configuration list for PBXNativeTarget "Text ProtectorTests" */;
-			buildPhases = (
-				689105F320DF74B700937F3A /* Sources */,
-				689105F420DF74B700937F3A /* Frameworks */,
-				689105F520DF74B700937F3A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				689105F920DF74B700937F3A /* PBXTargetDependency */,
-			);
-			name = "Text ProtectorTests";
-			productName = "Text ProtectorTests";
-			productReference = 689105F720DF74B700937F3A /* Text ProtectorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		6891060120DF74B700937F3A /* Text ProtectorUITests */ = {
 			isa = PBXNativeTarget;
@@ -658,10 +564,6 @@
 						CreatedOnToolsVersion = 9.4;
 						TestTargetID = 6856400A20E9420D008D24B6;
 					};
-					6856406420E962F2008D24B6 = {
-						CreatedOnToolsVersion = 9.4;
-						TestTargetID = 6856400A20E9420D008D24B6;
-					};
 					689105E220DF74B400937F3A = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1000;
@@ -673,10 +575,6 @@
 								enabled = 1;
 							};
 						};
-					};
-					689105F620DF74B700937F3A = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 689105E220DF74B400937F3A;
 					};
 					6891060120DF74B700937F3A = {
 						CreatedOnToolsVersion = 10.0;
@@ -712,9 +610,7 @@
 				6856400A20E9420D008D24B6 /* Text Protector Pro */,
 				6891062120DF7B8700937F3A /* MessageFilter */,
 				6856403020E9421E008D24B6 /* MessageFilter Pro */,
-				689105F620DF74B700937F3A /* Text ProtectorTests */,
 				6891060120DF74B700937F3A /* Text ProtectorUITests */,
-				6856406420E962F2008D24B6 /* Text Protector ProTests */,
 				6856405420E962BF008D24B6 /* Text Protector ProUITests */,
 			);
 		};
@@ -748,13 +644,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6856406320E962F2008D24B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		689105E120DF74B400937F3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -765,13 +654,6 @@
 				689105EE20DF74B700937F3A /* Assets.xcassets in Resources */,
 				689105EC20DF74B400937F3A /* Main.storyboard in Resources */,
 				6856400720E8931E008D24B6 /* faq.html in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		689105F520DF74B700937F3A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1025,14 +907,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6856406120E962F2008D24B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6856406820E962F2008D24B6 /* Text_Protector_ProTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		689105DF20DF74B400937F3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1053,14 +927,6 @@
 				687896D520E05F6C0034712C /* AboutTableViewController.swift in Sources */,
 				688DC78920E31C1900194622 /* CoreDataManager.swift in Sources */,
 				6856400920E89356008D24B6 /* WebViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		689105F320DF74B700937F3A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				689105FC20DF74B700937F3A /* Text_ProtectorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1104,16 +970,6 @@
 			isa = PBXTargetDependency;
 			target = 6856400A20E9420D008D24B6 /* Text Protector Pro */;
 			targetProxy = 6856405F20E962C7008D24B6 /* PBXContainerItemProxy */;
-		};
-		6856406B20E962F2008D24B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6856400A20E9420D008D24B6 /* Text Protector Pro */;
-			targetProxy = 6856406A20E962F2008D24B6 /* PBXContainerItemProxy */;
-		};
-		689105F920DF74B700937F3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 689105E220DF74B400937F3A /* Text Protector */;
-			targetProxy = 689105F820DF74B700937F3A /* PBXContainerItemProxy */;
 		};
 		6891060420DF74B700937F3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1276,49 +1132,6 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Text Protector Pro";
-			};
-			name = Release;
-		};
-		6856406D20E962F2008D24B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 76A8DGZB24;
-				INFOPLIST_FILE = "Text Protector ProTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-Protector-ProTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Protector Pro.app/Text Protector Pro";
-			};
-			name = Debug;
-		};
-		6856406E20E962F2008D24B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 76A8DGZB24;
-				INFOPLIST_FILE = "Text Protector ProTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-Protector-ProTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Protector Pro.app/Text Protector Pro";
 			};
 			name = Release;
 		};
@@ -1487,50 +1300,6 @@
 			};
 			name = Release;
 		};
-		6891060F20DF74B700937F3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 76A8DGZB24;
-				INFOPLIST_FILE = "Text ProtectorTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-ProtectorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Protector.app/Text Protector";
-			};
-			name = Debug;
-		};
-		6891061020DF74B700937F3A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 76A8DGZB24;
-				INFOPLIST_FILE = "Text ProtectorTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-ProtectorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Protector.app/Text Protector";
-			};
-			name = Release;
-		};
 		6891061220DF74B700937F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1647,15 +1416,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6856406C20E962F2008D24B6 /* Build configuration list for PBXNativeTarget "Text Protector ProTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6856406D20E962F2008D24B6 /* Debug */,
-				6856406E20E962F2008D24B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		689105DE20DF74B400937F3A /* Build configuration list for PBXProject "Text Protector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1670,15 +1430,6 @@
 			buildConfigurations = (
 				6891060C20DF74B700937F3A /* Debug */,
 				6891060D20DF74B700937F3A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6891060E20DF74B700937F3A /* Build configuration list for PBXNativeTarget "Text ProtectorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6891060F20DF74B700937F3A /* Debug */,
-				6891061020DF74B700937F3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

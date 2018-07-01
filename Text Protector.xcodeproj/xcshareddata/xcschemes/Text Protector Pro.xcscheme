@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6856406420E962F2008D24B6"
-               BuildableName = "Text Protector ProTests.xctest"
-               BlueprintName = "Text Protector ProTests"
+               BlueprintIdentifier = "6856405420E962BF008D24B6"
+               BuildableName = "Text Protector ProUITests.xctest"
+               BlueprintName = "Text Protector ProUITests"
                ReferencedContainer = "container:Text Protector.xcodeproj">
             </BuildableReference>
          </TestableReference>

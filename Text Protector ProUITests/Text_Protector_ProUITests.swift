@@ -14,8 +14,10 @@ class Text_Protector_ProUITests: XCTestCase {
         super.setUp()
         
         continueAfterFailure = false
+
+        let app = XCUIApplication()
         setupSnapshot(app)
-        XCUIApplication().launch()
+        app.launch()
         
     }
     
