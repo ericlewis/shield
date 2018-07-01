@@ -36,6 +36,7 @@ platform :ios do
   end
 
   def upload_as(scheme, appId)
+	  capture_screenshots
   	  common_pre_upload(scheme)
       upload_to_app_store(app_identifier: appId, username: "ericlewis777+apple@gmail.com")
       common_post_upload
