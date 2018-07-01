@@ -7,12 +7,12 @@ platform :ios do
 
   desc "Upload Shield & Metadata to App Store"
   lane :prod do
-      upload_as("Text Protector")
+      upload_as("Text Protector", "com.ericlewis.spam-shield")
   end
 
   desc "Upload Shield Pro & Metadata to App Store"
   lane :prod_pro do
-      upload_as("Text Protector Pro")
+      upload_as("Text Protector Pro", "com.ericlewis.spam-shieldpro")
   end
   
   desc "Upload Shield to TestFlight"
@@ -35,9 +35,9 @@ platform :ios do
       run_tests(scheme: "Text Protector Pro")
   end
 
-  def upload_as(scheme)
+  def upload_as(scheme, appId)
   	  common_pre_upload(scheme)
-      upload_to_app_store(username: "ericlewis777+apple@gmail.com", skip_waiting_for_build_processing: true)
+      upload_to_app_store(app_identifier: appId, username: "ericlewis777+apple@gmail.com")
       common_post_upload
   end
 
