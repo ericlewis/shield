@@ -32,20 +32,25 @@ platform :ios do
 
   def upload_as(scheme)
 	  capture_screenshots
-  	  sync_code_signing(type: "appstore")
-      build_app(scheme: scheme)
+  	  common_pre_upload
       upload_to_app_store(username: "ericlewis777+apple@gmail.com", skip_waiting_for_build_processing: true)
-      clean_build_artifacts
-      commit_version_bump
-      push_to_git_remote
+      common_post_upload
   end
 
   def upload_tf(scheme)
+  	  common_pre_upload
+      upload_to_testflight(username: "ericlewis777+apple@gmail.com", skip_waiting_for_build_processing: true)
+      common_post_upload
+  end	
+
+  def common_pre_upload()
   	  sync_code_signing(type: "appstore")
       build_app(scheme: scheme)
-      upload_to_testflight(username: "ericlewis777+apple@gmail.com", skip_waiting_for_build_processing: true)
-      clean_build_artifacts
+  end
+
+  def common_post_upload()
+  	  clean_build_artifacts
       commit_version_bump
       push_to_git_remote
-  end	
+  end
 end
