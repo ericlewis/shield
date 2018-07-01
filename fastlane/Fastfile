@@ -36,18 +36,18 @@ platform :ios do
   end
 
   def upload_as(scheme)
-  	  common_pre_upload
+  	  common_pre_upload(scheme)
       upload_to_app_store(username: "ericlewis777+apple@gmail.com", skip_waiting_for_build_processing: true)
       common_post_upload
   end
 
   def upload_tf(scheme)
-  	  common_pre_upload
+  	  common_pre_upload(scheme)
       upload_to_testflight(username: "ericlewis777+apple@gmail.com", skip_waiting_for_build_processing: true)
       common_post_upload
   end	
 
-  def common_pre_upload()
+  def common_pre_upload(scheme)
   	  sync_code_signing(type: "appstore")
       build_app(scheme: scheme)
   end

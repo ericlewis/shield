@@ -16,14 +16,14 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
-### ios production
+### ios prod
 ```
-fastlane ios production
+fastlane ios prod
 ```
 Upload Shield & Metadata to App Store
-### ios production_pro
+### ios prod_pro
 ```
-fastlane ios production_pro
+fastlane ios prod_pro
 ```
 Upload Shield Pro & Metadata to App Store
 ### ios beta
