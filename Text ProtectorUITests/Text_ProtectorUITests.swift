@@ -54,6 +54,7 @@ class Text_ProtectorUITests: XCTestCase {
         cells.element(boundBy: 5).tap()
         app.textViews.element(boundBy: 0).tap()
         app.textViews.element(boundBy: 0).typeText("Ringtone Club: Gr8 new polys direct to your mobile every week!")
+        sleep(2)
         snapshot("2ReportSMS")
         app.navigationBars.buttons.element(boundBy: 0).tap()
     }
