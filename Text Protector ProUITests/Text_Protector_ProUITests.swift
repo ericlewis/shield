@@ -35,7 +35,7 @@ class Text_Protector_ProUITests: XCTestCase {
         cells.element(boundBy: 4).tap()
         for _ in 1...7 {
             app.navigationBars.buttons.element(boundBy: 1).tap()
-            app.alerts.textFields.element(boundBy: 0).typeText("\(randomNumberWith(digits:3))\(randomNumberWith(digits:7))")
+            app.alerts.textFields.element(boundBy: 0).typeText("415\(randomNumberWith(digits:7))")
             app.alerts.buttons.element(boundBy: 1).tap()
             sleep(2)
         }
