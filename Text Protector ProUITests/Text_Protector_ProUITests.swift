@@ -27,6 +27,10 @@ class Text_Protector_ProUITests: XCTestCase {
     
     func testGenerateScreenshots() {
         let app = XCUIApplication()
+        
+        if app.alerts.count > 0 {
+            app.alerts.element(boundBy: 0).buttons.element(boundBy: 1).tap()
+        }
 
         let cells = app.tables.cells
         XCTAssertEqual(cells.count, 9, "found instead: \(cells.debugDescription)")
@@ -51,9 +55,6 @@ class Text_Protector_ProUITests: XCTestCase {
         app.textViews.element(boundBy: 0).typeText("Ringtone Club: Gr8 new polys direct to your mobile every week!")
         snapshot("2ReportSMS")
         app.navigationBars.buttons.element(boundBy: 0).tap()
-
-        cells.element(boundBy: 7).tap()
-        snapshot("3About")
     }
     
     func randomNumberWith(digits:Int) -> Int {
