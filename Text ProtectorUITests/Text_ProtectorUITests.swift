@@ -29,30 +29,33 @@ class Text_ProtectorUITests: XCTestCase {
     func testGenerateScreenshots() {
         let app = XCUIApplication()
         
+        if app.alerts.count > 0 {
+            app.alerts.element(boundBy: 0).buttons.element(boundBy: 1).tap()
+        }
+        
         let cells = app.tables.cells
         XCTAssertEqual(cells.count, 9, "found instead: \(cells.debugDescription)")
         snapshot("0Launch")
         
         cells.element(boundBy: 4).tap()
-        
-        for _ in 1...10 {
+        for _ in 1...7 {
             app.navigationBars.buttons.element(boundBy: 1).tap()
             app.alerts.textFields.element(boundBy: 0).typeText("415\(randomNumberWith(digits:7))")
             app.alerts.buttons.element(boundBy: 1).tap()
+            sleep(2)
         }
         
         app.navigationBars.buttons.element(boundBy: 1).tap()
         app.alerts.textFields.element(boundBy: 0).typeText("4158675309")
-        snapshot("1BlockNumberAlert")
+        snapshot("1BlockAlert")
         app.alerts.buttons.element(boundBy: 1).tap()
         app.navigationBars.buttons.element(boundBy: 0).tap()
         
         cells.element(boundBy: 5).tap()
+        app.textViews.element(boundBy: 0).tap()
+        app.textViews.element(boundBy: 0).typeText("Ringtone Club: Gr8 new polys direct to your mobile every week!")
         snapshot("2ReportSMS")
         app.navigationBars.buttons.element(boundBy: 0).tap()
-        
-        cells.element(boundBy: 8).tap()
-        snapshot("3About")
     }
     
     func randomNumberWith(digits:Int) -> Int {

@@ -1,5 +1,3 @@
-scheme("Text Protector Pro")
-
 devices([
   "iPhone 8",
   "iPhone 8 Plus",
