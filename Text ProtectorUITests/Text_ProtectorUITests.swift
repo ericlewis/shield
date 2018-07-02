@@ -26,9 +26,47 @@ class Text_ProtectorUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testGenerateScreenshots() {
+        let app = XCUIApplication()
+        
+        let cells = app.tables.cells
+        XCTAssertEqual(cells.count, 9, "found instead: \(cells.debugDescription)")
+        snapshot("0Launch")
+        
+        cells.element(boundBy: 4).tap()
+        
+        for _ in 1...10 {
+            app.navigationBars.buttons.element(boundBy: 1).tap()
+            app.alerts.textFields.element(boundBy: 0).typeText("415\(randomNumberWith(digits:7))")
+            app.alerts.buttons.element(boundBy: 1).tap()
+        }
+        
+        app.navigationBars.buttons.element(boundBy: 1).tap()
+        app.alerts.textFields.element(boundBy: 0).typeText("4158675309")
+        snapshot("1BlockNumberAlert")
+        app.alerts.buttons.element(boundBy: 1).tap()
+        app.navigationBars.buttons.element(boundBy: 0).tap()
+        
+        cells.element(boundBy: 5).tap()
+        snapshot("2ReportSMS")
+        app.navigationBars.buttons.element(boundBy: 0).tap()
+        
+        cells.element(boundBy: 8).tap()
+        snapshot("3About")
     }
     
+    func randomNumberWith(digits:Int) -> Int {
+        let min = Int(pow(Double(10), Double(digits-1))) - 1
+        let max = Int(pow(Double(10), Double(digits))) - 1
+        return Int(Range(uncheckedBounds: (min, max)))
+    }
+}
+
+extension Int {
+    init(_ range: Range<Int> ) {
+        let delta = range.lowerBound < 0 ? abs(range.lowerBound) : 0
+        let min = UInt32(range.lowerBound + delta)
+        let max = UInt32(range.upperBound   + delta)
+        self.init(Int(min + arc4random_uniform(max - min)) - delta)
+    }
 }

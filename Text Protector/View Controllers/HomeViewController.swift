@@ -60,7 +60,7 @@ class HomeViewController: UITableViewController {
     override func viewDidAppear(_ animated: Bool) {
         if UserDefaults.standard.string(forKey: "firstRun") == nil {
             UserDefaults.standard.set("ran", forKey: "firstRun")
-            let alert = UIAlertController(title: "Heads up", message: "In order to use the blocking features, you must enable filtering in settings.", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Welcome to Shield!", message: "In order to use the blocking features, you must enable filtering in settings.", preferredStyle: .alert)
             
             alert.addAction(UIAlertAction(title: "Watch Install Video", style: .default, handler: { (action) in
                 guard let path = Bundle.main.path(forResource: "tutorial", ofType:"MOV") else {
@@ -74,6 +74,8 @@ class HomeViewController: UITableViewController {
                     player.play()
                 }
             }))
+            
+            alert.addAction(UIAlertAction(title: "Maybe Later", style: .cancel))
             
             present(alert, animated: true)
         }

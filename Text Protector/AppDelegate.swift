@@ -32,6 +32,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             initializePurchases()
         } else {
             KeychainSwift().set("LifetimeOnetime", forKey: "plan")
+            
+            if UserDefaults.standard.string(forKey: "firstRun") == nil {
+                KeychainSwift().set(true, forKey: "filter")
+            }
         }
 
         return true

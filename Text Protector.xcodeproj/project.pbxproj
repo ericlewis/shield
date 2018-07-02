@@ -193,9 +193,11 @@
 		6894B2EE20E5A14400CE13D8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		68CCAD3520E5C62A00725641 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 		88555D0BB3B22716C6D9EA99 /* Pods_Text_Protector_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Text_Protector_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECEE2C569ED0895B722F64C /* Pods_Text_Protector_Text_ProtectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Text_Protector_Text_ProtectorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B8C5B86952129D433C7CD7 /* Pods_MessageFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5999C4ABBB837A1833DC16D /* Pods-Text Protector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Text Protector.release.xcconfig"; path = "Pods/Target Support Files/Pods-Text Protector/Pods-Text Protector.release.xcconfig"; sourceTree = "<group>"; };
 		AF24705966A31EBCD8EFEFEB /* Pods_ReportSpam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReportSpam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10CEBD7B08E9B87A472B672 /* Pods_Text_Protector_Pro_Text_Protector_ProUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Text_Protector_Pro_Text_Protector_ProUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D420D55A53814E573A3166A6 /* Pods-MessageFilter Pro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageFilter Pro.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessageFilter Pro/Pods-MessageFilter Pro.release.xcconfig"; sourceTree = "<group>"; };
 		D4CD9E5BCB275AD78A7807CB /* Pods-Text Protector Pro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Text Protector Pro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Text Protector Pro/Pods-Text Protector Pro.debug.xcconfig"; sourceTree = "<group>"; };
 		D7EA96FD2EDAFBE2D6E2E28C /* Pods_MessageFilter_Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageFilter_Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -263,6 +265,8 @@
 				4CE111E546F1DB0A7866575C /* Pods_Text_Protector.framework */,
 				D7EA96FD2EDAFBE2D6E2E28C /* Pods_MessageFilter_Pro.framework */,
 				88555D0BB3B22716C6D9EA99 /* Pods_Text_Protector_Pro.framework */,
+				D10CEBD7B08E9B87A472B672 /* Pods_Text_Protector_Pro_Text_Protector_ProUITests.framework */,
+				8ECEE2C569ED0895B722F64C /* Pods_Text_Protector_Text_ProtectorUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1315,7 +1319,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-ProtectorUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Text Protector";
 			};
@@ -1336,7 +1340,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ericlewis.Text-ProtectorUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Text Protector";
 			};
